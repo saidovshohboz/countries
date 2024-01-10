@@ -65,6 +65,7 @@ body {
   line-height: 1.5;
   background-color: var(--bg-body);
   color: var(--text-color);
+  transition: background-color 0.4s ease, color 0.4s ease;
 }
 
 img {
