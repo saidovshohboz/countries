@@ -97,6 +97,8 @@ a {
 /* MAIN-CONTENT */
 .main-content {
   flex-grow: 1;
+  padding-top: 48px;
+  padding-bottom: 48px;
 }
 
 /* SITE-HEADER */
@@ -154,4 +156,30 @@ a {
   font-size: 16px;
   line-height: 22px;
   font-weight: 600;
+}
+
+/* FILTERS */
+.filters {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.filters-search {
+  border: 0;
+  border-radius: 5px;
+  padding: 18px 74px;
+  box-shadow: 0px 2px 9px 0px rgba(0, 0, 0, 0.05);
+  color: var(--text-color);
+  background-color: var(--bg-element);
+}
+
+.filters-region {
+  min-width: 200px;
+  border: 0;
+  border-radius: 5px;
+  padding: 18px 24px;
+  box-shadow: 0px 2px 9px 0px rgba(0, 0, 0, 0.05);
+  color: var(--text-color);
+  background-color: var(--bg-element);
 }
