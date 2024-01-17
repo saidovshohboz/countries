@@ -263,11 +263,134 @@ a {
   font-size: 14px;
   font-weight: 300;
   line-height: 16px;
-  margin-left: 4px;
 }
 
 
 /* COUNTRY-PAGE  */
-/* .country-page-back {
+.country-page-back-wrapper {
   margin-bottom: 80px;
-} */
+}
+
+.country-page-back-link {
+  display: inline-flex;
+  align-items: center;
+  padding: 10px 40px;
+  border-radius: 6px;
+  color: var(--text-color);
+  background-color: var(--bg-element);
+  box-shadow: 0px 0px 7px 0px rgba(0, 0, 0, 0.3);
+}
+
+.country-page-back-link:hover {
+  opacity: 0.8;
+}
+
+.country-page-back-link:active {
+  opacity: 0.6;
+}
+
+.country-page-back-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+}
+
+.country-page-back-text {
+  font-size: 16px;
+  line-height: 20px;
+}
+
+/* COUNTRY PAGE INFO  */
+.country-page-flag-info {
+  display: flex;
+}
+
+.country-page-flag {
+  width: 560px;
+  height: 400px;
+  object-fit: cover;
+  margin-right: 140px;
+  border-radius: 12px;
+  box-shadow: 0px 0px 14px 4px rgba(0, 0, 0, 0.2);
+}
+
+.country-page-info {
+  min-width: 650px;
+  padding: 40px;
+}
+
+.country-page-info h1 {
+  font-size: 32px;
+  font-weight: 800;
+  line-height: 44px;
+  margin-top: 0;
+  margin-bottom: 24px;
+}
+
+.country-page-dls-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 70px;
+}
+
+.country-page-details-item {
+  display: flex;
+}
+
+.country-page-details-item:not(:last-child) {
+  margin-bottom: 12px;
+}
+
+.country-page-details-title {
+  font-weight: 600;
+  margin-right: 4px;
+}
+
+.country-page-details-value {
+  font-weight: 300;
+  margin: 0;
+}
+
+.country-page-border-countries {
+  display: flex;
+  align-items: center;
+}
+
+.country-page-border-countries h2 {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: 15px;
+  font-weight: 600;
+  line-height: 20px;
+  font-size: 16px;
+}
+
+.country-page-border-countries-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.country-page-border-countries-list a {
+  min-width: 96px;
+  padding: 5px 25px;
+  border-radius: 2px;
+  margin-top: 4px;
+  margin-bottom: 4px;
+  color: var(--text-color);
+  background-color: var(--bg-element);
+  box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  transition: background-color 0.4s ease, color 0.4 ease;
+}
+
+.country-page-border-countries-list a:hover {
+  opacity: 0.8;
+}
+
+.country-page-border-countries-list a:active {
+  opacity: 0.6;
+}
+
+.country-page-border-countries-list a:not(:last-child) {
+  margin-right: 10px;
+}
