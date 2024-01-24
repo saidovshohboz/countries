@@ -170,6 +170,19 @@ a {
   margin-bottom: 48px;
 }
 
+.filters-search-wrapper {
+  position: relative;
+}
+
+.filter-search-icon {
+  position: absolute;
+  top: 50%;
+  left: 32px;
+  transform: translateY(-50%);
+  color: var(--text-color);
+  pointer-events: none;
+}
+
 .filters-search {
   min-width: 480px;
   border: 0;
